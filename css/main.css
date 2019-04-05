@@ -39,7 +39,6 @@ h4 {
 p {
 	font-size: 14px;
 	line-height: 21px;
-    padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
@@ -117,27 +116,25 @@ header nav ul li a{
 	line-height: 25px;
 }
 
+.bottom-section {
+	justify-content: flex-start;
+}
+
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
-	height: auto;
 	float: left;
 	border-top: 1px solid #eee;
+	width: 100%;
 }
 
 .section-one h4 {
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: 10px 0;
 }
 
 .menu {
